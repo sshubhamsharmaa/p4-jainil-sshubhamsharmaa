@@ -11,3 +11,23 @@ Outcome:
 3.The candidates will understand how ‘closure’ works in JS.
 4. The candidates will understand how ‘encapsulation’ works in JS.
 */
+
+function createStack() {
+  let items = [];
+  return {
+    push(item) {
+      items.push(item);
+      console.log("inside push function");
+    },
+    pop() {
+      console.log("inside pop function");
+      return items.pop();
+    },
+  };
+}
+
+const stack = createStack();
+stack.push(10);
+stack.push(5);
+stack.pop();
+console.log(stack.items);
