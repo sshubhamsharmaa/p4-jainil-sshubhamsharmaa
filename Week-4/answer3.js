@@ -17,6 +17,6 @@ let fibObj = {
   },
 };
 //change the value of i to get the desired output
-for (let I = 0; I < 10; I++) {
+for (let i = 0; i < 10; i++) {
   console.log(fibObj.next().value);
 }
