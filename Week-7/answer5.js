@@ -1,4 +1,4 @@
-// Check ext greater element
+// Check next greater element
 
 let arr = [1, 3, 2, 4];
 checkGreaterElement(arr);

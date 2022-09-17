@@ -1,6 +1,6 @@
 //Parenthesis Checker
 
-let expression = "([{}{)(}{)({})})}])";
+let expression = "([{}{)({})})}])";
 
 console.log(paranthesisChecker(expression));
 function paranthesisChecker(expression) {
